@@ -1,0 +1,42 @@
+[
+    {
+        "model": "client.client",
+        "pk": 1,
+        "fields": {
+            "name": "Darth Vader",
+            "created_at": "2019-03-02 18:31:38"
+        }
+    },
+    {
+        "model": "client.client",
+        "pk": 2,
+        "fields": {
+            "name": "Obi-Wan Kenobi",
+            "created_at": "2019-03-02 18:32:25"
+        }
+    },
+    {
+        "model": "client.client",
+        "pk": 3,
+        "fields": {
+            "name": "Luke Skywalker",
+            "created_at": "2019-03-02 18:33:15"
+        }
+    },
+    {
+        "model": "client.client",
+        "pk": 4,
+        "fields": {
+            "name": "Imperador Palpatine",
+            "created_at": "2019-03-02 18:34:45"
+        }
+    },
+    {
+        "model": "client.client",
+        "pk": 5,
+        "fields": {
+            "name": "Han Solo",
+            "created_at": "2019-03-02 18:35:10"
+        }
+    }
+]
