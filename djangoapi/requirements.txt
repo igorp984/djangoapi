@@ -5,3 +5,4 @@ gunicorn==19.7.1
 whitenoise==3.3.0
 djangorestframework
 coverage
+django-cors-headers==2.4.0
