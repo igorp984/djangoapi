@@ -1,0 +1,56 @@
+[
+    {
+        "model": "produto.produto",
+        "pk": 2,
+        "fields": {
+            "name": "X-Wing",
+            "preco_unitario": 60000.00,
+            "multiplo":2
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 3,
+        "fields": {
+            "name": "Super ​Star ​Destroyer",
+            "preco_unitario": 4570000.00,
+            "multiplo":0
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 4,
+        "fields": {
+            "name": "TIE ​Fighter",
+            "preco_unitario": 75000.00,
+            "multiplo":0
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 5,
+        "fields": {
+            "name": "Lightsaber",
+            "preco_unitario": 6000.00,
+            "multiplo":5
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 6,
+        "fields":{
+            "name": "DLT-19 ​Heavy ​Blaster ​Rifle",
+            "preco_unitario": 5800.00,
+            "multiplo":0
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 7,
+        "fields": {
+            "name": "DL-44 ​Heavy ​Blaster ​Pistol",
+            "preco_unitario": 1500.00,
+            "multiplo":10
+        }
+    }
+]
