@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'client',
     'produto',
+    'pedido',
     'rest_framework',
     'corsheaders',
 ]
