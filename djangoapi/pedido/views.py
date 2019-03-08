@@ -12,3 +12,6 @@ class ItemListCreate(generics.ListCreateAPIView):
 class PedidoListCreate(generics.ListCreateAPIView):
     queryset = Pedido.objects.all()
     serializer_class = PedidoSerializer
+class PedidoUpdateApiView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Pedido.objects.all()
+    serializer_class = PedidoSerializer

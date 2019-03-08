@@ -4,4 +4,5 @@ from . import views
 urlpatterns = [
     path('api/item/', views.ItemListCreate.as_view() ),
     path('api/pedido/', views.PedidoListCreate.as_view()),
+    path('api/pedido/<int:pk>', views.PedidoUpdateApiView.as_view()),
 ]

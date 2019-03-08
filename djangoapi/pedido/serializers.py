@@ -19,3 +19,10 @@ class PedidoSerializer(serializers.ModelSerializer):
         for item_data in itens_data:
             Item.objects.create(pedido=pedido, **item_data)
         return pedido
+
+    def update(self, isinstance, validated_data):
+        itens_data = validated_data.pop('item_set')
+        pedido = Pedido.objects.create(**validated_data)
+        for item_data in itens_data:
+            Item.objects.create(pedido=pedido, **item_data)
+        return pedido
