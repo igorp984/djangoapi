@@ -27,10 +27,10 @@ ou com <br>
 
 Toda vez que você precisar instalar ou rodar algum comando do backend ou do frontend, rode com o seguinte comando:
 
-exemplo de como criar uma app no django:
+exemplo de como criar uma app no django:<br>
 <strong> docker-compose run api python3 django-admin startapp [nome de sua app]</strong><br>
 <br>
-execplo de como instalar um pacote pra o frontend
+execplo de como instalar um pacote pra o frontend:<br>
 <strong> docker-compose run frontend npm install [o pacote] </strong> <br>
 
 É isto galera, uma busca de aprendizado prático para minha programação em django com aplicaçes rest full com restframework. E aprender um framework de frontend que é o react.
